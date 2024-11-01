@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-# Restaurants-Website
-=======
+
 # Restaurant-management-website
 Restaurant-managemant-website using php ,mysql 
->>>>>>> ec978bae2fae694b9acd9c5d7aaa6ab1bb99826c
+
+
+![Screenshot (192)](https://github.com/user-attachments/assets/99e14103-f1f3-4d79-8c38-80335b27914f)
