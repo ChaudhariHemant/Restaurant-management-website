@@ -1,0 +1,82 @@
+/* Body styling */
+body {
+    background-color: rgba(19, 27, 65, 0.6);
+    color: #09223b;
+}
+
+/* Navbar styling */
+.nav-tabs {
+    background-color: #110101;
+    border-bottom: 3px solid #dee2e6;
+    padding: 7px;
+}
+
+.nav-tabs .nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    background-color: #e9ecf0;
+}
+
+/* Header styling */
+.header h2 {
+    color: #232c37;
+}
+
+/* Table styling */
+.table {
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensures rounded corners work */
+    background-color: white; /* Background for table */
+    margin-top: 20px; /* Add spacing at the top of the table */
+}
+
+.thead-dark th {
+    background-color: #343a40; /* Dark background for header */
+    color: white; /* White text for header */
+    font-weight: bold; /* Bold text */
+    border: 2px solid #007bff; /* Blue border color */
+    padding: 12px; /* Add padding for better spacing */
+}
+
+.table td, .table th {
+    border: 2px solid #1c1d1e; /* Blue border for both headers and cells */
+    padding: .75rem; /* Consistent padding */
+    vertical-align: top;
+    width: auto; /* Set automatic width for cells */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef; /* Light gray hover effect */
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #08192b;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-dark {
+    color: #dddfe0;
+    border-color: #eef0f2;
+    background-color: #211111;
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+.custom-control-label {
+    color: #fff2ce;
+}
+.bordered-form {
+    border: 3px solid #1a1b1d; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+}

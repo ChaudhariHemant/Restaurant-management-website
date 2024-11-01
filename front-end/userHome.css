@@ -1,0 +1,69 @@
+/* Body background color */
+body {
+    background-color: #071e36; 
+    color: #343a40; 
+}
+
+.nav-tabs {
+    background-color: #110101; 
+}
+
+.nav-tabs .nav-link {
+    color: white;
+}
+ .nav-link.active {
+    background-color: #e9ecf0; 
+}
+
+.nav-tabs {
+    border-bottom: 3px solid #dee2e6;
+    margin: 2 px;
+    margin: 6px;
+    padding: 7px;
+}
+
+/* Header styling */
+.header {
+    margin: 20px 0;
+}
+
+.header h2 {
+    color: #d6dee7; /* Blue color for the header text */
+}
+
+/* Table styling */
+.table {
+    background-color: white; 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef; /* Light gray hover effect */
+}
+
+.thead-dark {
+    background-color: #343a40; 
+    color: white; 
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #08192b; /* Blue button background */
+    border-color: #007bff; /* Blue border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+
+.btn-outline-dark {
+    color: #dddfe0;
+    border-color: #eef0f2;
+    border-bottom-style: solid;
+}
+
+.custom-control-label{
+    color: #fff2ce;
+}

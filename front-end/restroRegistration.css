@@ -1,0 +1,71 @@
+/* Body styling */
+body {
+    margin: 0;
+    color: #000;
+    background-image: url('Restroregi.avif') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-color: transparent !important;
+    font: 600 16px/18px 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(222, 226, 230, 0.9) !important;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(66, 15, 15, 0.5);
+}
+
+
+/* Header styling */
+.header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Input fields */
+input, .form-control {
+    font-weight: bold;
+    border: 1px solid #593e2b; 
+    padding: 10px;
+    background-color: #f7f7f7; 
+   
+}
+
+input:focus, .form-control:focus {
+    border-color: #2e1a1a;
+    outline: none;
+    box-shadow: 0 0 5px rgba(66, 15, 15, 0.5); 
+}
+
+input::placeholder {
+    color: #593e2b;
+    opacity: 0.8;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #3e2723; 
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1b0000;
+    border-color: #593e2b;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+}

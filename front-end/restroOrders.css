@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+   
+  
+    font-family: Arial, sans-serif;
+    background-image: -o-linear-gradient();
+    background-color: #2f4964;;
+}
+
+/* Navbar styling */
+.nav-tabs {
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-bottom: 2px solid #0056b3;
+}
+
+.nav-tabs .nav-item {
+    margin-right: 15px; 
+}
+
+
+.nav-tabs .nav-link {
+    color: white;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 4px;
+}
+
+.nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+link.active {
+    /* color: #021222; */
+    background-color: #663c96;
+    border-color: #061221 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.nav-tabs {
+    background-color: #222e3b;
+    margin: 2 px;
+    margin: 6px;
+    padding: 7px;
+}
+
+
+.nav-tabs .nav-link.active {
+    background-color: #346ca8;
+    color: white;
+}
+/* Container styling */
+.container {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav-tabs .btn-outline-dark {
+    margin-left: 15px;
+    color: #ccd4dc;
+    border-color: #343a40;
+    padding: 8px 16px;
+}
+.nav-tabs .btn-outline-dark:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Table styling */
+.table {
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.thead-dark {
+    background-color: #343a40; /* Dark gray for table headers */
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef; /* Light gray on row hover */
+}
+
+/* Button styling */
+btn-outline-dark {
+    color: #dddfe0;
+    border-color: #eef0f2;
+    border-bottom-style: solid;
+
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn-outline-dark {
+    color: #f2fbff;
+    border-color: #6f92b5;
+    background-color: #211111;
+    border-bottom-style: solid;
+}
